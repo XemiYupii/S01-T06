@@ -1,4 +1,4 @@
-package exercici2;
+package n1exercici2;
 
 public class GenericMethods <T, K, U> {
 	
