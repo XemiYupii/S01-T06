@@ -1,14 +1,14 @@
 package n2exercici2;
 
-public class GenericMethods < K, U> {
+public class GenericMethods < K> {
 	
 	
 	@SafeVarargs
-	public static<K, U> void metodeGeneric (int element, U element2, K... element3) {
-		System.out.println(element +"  "+ element2 +"  ");
-		for (K e : element3) {
-			System.out.println(e + " ");
+	public static<K> void metodeGeneric (K... element) {
+		for (K k : element) {
+			System.out.println(k);
 		}
+		
 	}
 
 }
